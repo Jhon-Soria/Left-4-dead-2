@@ -1,0 +1,99 @@
+body {
+    background-image: url(../fondo_estrellado.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../fondo_estrellado.jpg);
+    text-align: center;
+    padding: 20px;
+    background-color: #161b22;
+    color: #ff5b58;
+    font-size: 2em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #21262d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #58a6ff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-bibliography {
+    margin-bottom: 30px;
+}
+
+.page-bibliography h3 {
+    color: #6eff06;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+li:hover {
+    color: #ff7b72;
+}
+
+li:active {
+    color: #58a6ff;
+}
+.patito{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-button {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-button:hover {
+    background: #00bcd4;
+}
+
+.nav-button.left {
+    align-self: flex-start;
+}
+
+.nav-button.right {
+    align-self: flex-end;
+}
+  
+
+
+#botonarriba{
+    position: fixed;
+    bottom: 20px;
+    right: -170px;
+    width: 158px;
+    transition: all 1s;
+}
