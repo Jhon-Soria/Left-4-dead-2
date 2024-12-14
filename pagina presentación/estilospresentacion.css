@@ -1,0 +1,284 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;800&display=swap');
+
+
+
+*{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{ 
+    font-family: "Bebas Neue", sans-serif;
+        background-color: #1F1F1F;
+      }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.header{
+    background-image: url(fono_definitivo.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    color:#cf2d3a;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.menu .navbar ul li{
+position: relative;
+float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color:red;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+color: green;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 200px;float: left;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+    
+}
+
+.header-txt{
+    text-align: center;
+    margin-bottom: 45pxs;
+
+}
+
+.header-txt h1, span, h3{
+    font-size: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", cursive;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.header-txt span{
+    font-size: 25px;
+}
+.heade-txt p{
+
+    color: #AFAFAF;
+    padding: 0 25px;
+    margin: 25px 0;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: red;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    margin: 25px 0;
+    border: 0;
+
+}
+
+.btn-1:hover{
+    background-color: greenyellow;
+}
+
+.header-dir{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+.dir h3{
+    font-size: 18px;
+}
+.dir p{
+    font-size: 22px;
+    color: antiquewhite;
+    text-transform: uppercase;
+
+}
+.welcome{
+    display: flex;
+    background-image: url(fondo_estrellado.jpg);
+}
+
+.welcome-1{
+   
+    background-image: url(patito_fondonick.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
+
+    
+    
+
+.welcome-2{
+    width:50%;
+    padding: 150px 250px 150px 100px;
+    background-color:#191919;
+   
+}
+h2{
+    font-size: 90px;
+    line-height: 100px;
+    color:#FFFFFF;
+    text-transform: uppercase; }
+   }
+p{
+    font-size: 16px;
+    color:#AFAFAF;
+    margin: 25px 0;
+}
+
+.b1{
+    color: red;font-size: 20px;text-decoration: underline;  
+    
+    }
+
+.services{
+    background-image: url(fondo\ ultimo.bmp);
+    background-position: 0dvh;
+    background-repeat: no-repeat;
+    width:100%;
+   background-size: cover;
+    background-size: auto;
+  
+    padding: 100px 0;
+    text-align: center;
+}
+.services-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+hr{
+    border: 1px solid red;
+    width: 80px;
+}
+.services-txt p {
+    padding: 50px 150px;
+}
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+    
+}
+
+.servicies-1{
+    background-color: #070707;
+    padding: 35px 25px;
+    margin: 0 10px;
+    border-radius: 15px;
+    
+}
+.servicies-1 img{
+   
+width: 25px;
+margin-bottom: 15px;
+
+}
+.servicies-1 h3{
+    
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+.servicies-1 a{
+   
+    color: red;
+    font-size: 16px;
+}
+.prices{
+   
+    display: flex;
+    
+}
+
+.prices-1{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+    background-image: url(fondo_estrellado.jpg);
+}
+table{
+   
+    margin: 50px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse:collapse ;
+
+   
+}
+
+tr{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #AFAFAF;
+    margin-bottom: 35px;
+}
+th{
+    color:#FFFFFF;
+    padding-bottom: 15px;
+}
+td{
+    color: red;
+}
+
+.prices-2{
+background-image: url(tercera\ imagen\ de\ pricipal.jpg);
+background-position: center center;
+background-repeat: no repeat;
+background-size: cover;
+width: 50%;
+}
+#botonarriba{
+    position: fixed;
+    bottom: 20px;
+    right: -200px;
+    width: 159px;
+    transition: all 1s;
+}
+
+
